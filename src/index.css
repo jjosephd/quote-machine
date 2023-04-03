@@ -5,9 +5,67 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1e90ff;
 }
+#wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  
+}
+#quote-box{
+  width: 450px;
+  height: 250px;
+  background-color: white;
+  
+  padding: 50px;
+  border-radius: 5px;
+  
+}
+#quote-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#text{
+  color: #1e90ff;
+  font-size: 24px;
+  text-align: center;
+  font-weight:bolder
+}
+#name-row{
+  display: flex;
+  justify-content: end;
+}
+.button-row{
+  display: flex;
+  flex-direction: row;
+  
+}
+.btn{
+  background-color: #00805a;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+  border-radius: 5px;
+}
+.btn:hover{
+  cursor: pointer;
+}
+#new-quote{
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 5px;
+  width:8rem;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+#new-quote:hover{
+  cursor: pointer;
+}
+#tumblr{
+  margin-right: 15rem;
 }
